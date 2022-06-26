@@ -13,6 +13,8 @@ conanO'Brien = "It's a-me, Conan O'Brien!"
 
 doubleSmallNumber' x = (if x > 100 then x else x*2) + 1 
 
+removeNonUppercase st = [ c | c <- st, c `elem` ['A'..'Z']] 
+
 lostNumbers = [1,3,6,67,69]
 wack = ["omg","slay","wow"]
 yass' = ["y","a","s","s"]
