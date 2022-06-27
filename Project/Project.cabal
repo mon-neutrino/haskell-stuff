@@ -25,7 +25,7 @@ source-repository head
 
 library
   exposed-modules:
-      Lib
+      Basics
   other-modules:
       Paths_Project
   hs-source-dirs:
